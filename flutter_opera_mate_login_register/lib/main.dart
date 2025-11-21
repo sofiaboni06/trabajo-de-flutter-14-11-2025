@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_opera_mate_login_register/screen/add.dart';
+import 'package:flutter_opera_mate_login_register/screen/division.dart';
 import 'package:flutter_opera_mate_login_register/screen/mainOption.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: Scaffold(
-        body: MainOption(),
+        body: Division(),
 
         
       ),

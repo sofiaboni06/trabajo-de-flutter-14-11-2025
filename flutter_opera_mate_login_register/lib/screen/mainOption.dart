@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_opera_mate_login_register/screen/add.dart';
+import 'package:flutter_opera_mate_login_register/screen/division.dart';
 
 class MainOption extends StatefulWidget {
   const MainOption({super.key});
@@ -47,7 +48,7 @@ class _MainOptionState extends State<MainOption> {
               onTap: () {
                 Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => add())
+              MaterialPageRoute(builder: (context) => Division())
               );
               
                 
